@@ -5,7 +5,7 @@ import { FcHome } from 'react-icons/fc';
 import { FcOvertime } from 'react-icons/fc';
 import { FcOpenedFolder } from 'react-icons/fc';
 import { FcKindle } from 'react-icons/fc';
-import { SideBarMenuCard, SideBarMenuItem } from './Components/SideBar/types/types';
+import { SideBarMenuCard, SideBarMenuItem } from './interfaces/types';
 
 
 function App() {

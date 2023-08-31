@@ -1,4 +1,4 @@
-import { SideBarMenuItem } from "./types/types"; 
+import { SideBarMenuItem } from "../../interfaces/types"; 
 import React from "react";
 import { classNames } from "../../util/classes";
 import "./SideBarMenuItemView.scss"
