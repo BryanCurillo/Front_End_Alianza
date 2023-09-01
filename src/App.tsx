@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { SideBarMenu } from './Components/SideBar/SideBarMenu';
+import { SideBarMenu } from './common/SideBar/SideBarMenu';
 import { FcBusinessman } from 'react-icons/fc';
 import { FcHome } from 'react-icons/fc';
 import { FcOvertime } from 'react-icons/fc';
