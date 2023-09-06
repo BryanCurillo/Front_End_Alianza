@@ -3,12 +3,14 @@
 
 
 .SideBarMenuexpanded {
+  position: fixed;
+
     // Incluye el mixin para la transición
     @include transition(width);
     width: 300px;
     background-color: #222;
     color: white;
-    position: absolute;
+    // position: absolute;
     left: 0;
     top: 0;
     height: 100%;
@@ -18,11 +20,14 @@
 
 .SideBarMenucollapsed {
     // Incluye el mixin para la transición
+    
     @include transition(width);
+    position: fixed;
+
     width: 68px;
     background-color: #222;
     color: white;
-    position: absolute;
+    // position: absolute;
     left: 0;
     top: 0;
     height: 100%;
@@ -57,6 +62,7 @@
 .menuButton {
     display: flex;
     justify-content: flex-end;
+    
 
     .hamburgerIcon {
         cursor: pointer;

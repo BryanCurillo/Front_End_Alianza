@@ -6,7 +6,8 @@ import { FcOvertime } from 'react-icons/fc';
 import { FcOpenedFolder } from 'react-icons/fc';
 import { FcKindle } from 'react-icons/fc';
 import { SideBarMenuCard, SideBarMenuItem } from './interfaces/types';
-
+import "primereact/resources/themes/lara-light-indigo/theme.css"; 
+import "primereact/resources/primereact.min.css"; 
 
 function App() {
   const items: SideBarMenuItem [] = [
